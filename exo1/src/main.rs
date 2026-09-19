@@ -1,3 +1,13 @@
+//Création d'une fonction de multiplication
+
+fn multiplication(a: f64 , b: f64) -> f64{
+    a*b
+}
+
+
+
+
+
 fn main() {
     println!("Hello, world!");
     let prix: f64 = 25.0; //f64 c pour le type double
@@ -20,8 +30,15 @@ fn main() {
 
     println!("Prix final : {}", prix_final);
 
-    
+    let mut points: u32 = 0; //mut est utilisé pour modifier une variable
 
+    points = points + 10;
+
+    println!("Points : {}", points);
+
+    let resultat = multiplication(5.0, 4.0);
+
+    print!("Résultat : {}", resultat);
 
     
 }
