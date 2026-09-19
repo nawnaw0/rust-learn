@@ -1,0 +1,4 @@
+.vscode/
+
+# Rust build files
+**/target/
